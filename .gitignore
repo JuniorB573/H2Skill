@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+worker/.dev.vars
+worker/node_modules/
+worker/.wrangler/
+.env
