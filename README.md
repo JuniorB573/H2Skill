@@ -8,13 +8,13 @@ The app is available in English and French. It provides information and support;
 
 ## What you can do
 
-- Select both partners’ carrier results and view the related probabilities.
-- Understand the results with explanations and a genetic cross table.
-- Explore a family tree and identify information that may be useful to learn.
-- View cumulative risk across multiple pregnancies.
-- Prepare a summary sheet to bring to an appointment.
-- Ask the assistant a question when that feature is available.
-- Take a short quiz to check your understanding.
+* Select both partners’ carrier results and view the related probabilities.
+* Understand the results with explanations and a genetic cross table.
+* Explore a family tree and identify information that may be useful to learn.
+* View cumulative risk across multiple pregnancies.
+* Prepare a summary sheet to bring to an appointment.
+* Ask the assistant a question when that feature is available.
+* Take a short quiz to check your understanding.
 
 ## How to use the app
 
@@ -37,3 +37,18 @@ For severe pain, fever, or difficulty breathing, contact a healthcare profession
 The information entered in the app does not include your name. Your browser session is not retained after you close the page. When the artificial intelligence assistant is enabled, the selected results, your question, and a short conversation history are sent to the service to generate a response; according to the project’s configuration, the service does not retain them.
 
 Avoid entering information that could identify you.
+
+
+
+\## Authors
+
+
+
+\- Déo Gracias ADOGOUN
+
+\- Ahossou Junior Marie-Clémenceau BIAHOU
+
+\- Gildas Mahugnon GNONHOSSOU
+
+\- Mahulahen Eustache Ornel QUENUM
+
