@@ -70,7 +70,7 @@ def now():
 def log(event, detail=""):
     """Événement anonyme (jamais de nom ni de résultat)."""
     st.session_state.events.append(
-        {"ts": now(), "event": event, "lang": st.session_state.get("lang", "en"), "detail": detail}
+        {"ts": now(), "event": event, "lang": st.session_state.get("lang", "fr"), "detail": detail}
     )
 
 
@@ -140,7 +140,7 @@ def events_csv():
 init_state()
 st.markdown(STYLE, unsafe_allow_html=True)
 
-lang = st.radio("Language", ["en", "fr"], horizontal=True, key="lang",
+lang = st.radio("Langue / Language", ["fr", "en"], horizontal=True, key="lang",
                 format_func=lambda k: TEXTS[k]["lang_name"])
 t = TEXTS[lang]
 x = TX[lang]
@@ -403,4 +403,3 @@ with tab_next:
     m3.metric(t["ind_shares"], shares_active)
     st.download_button(t["ind_export"], events_csv(), file_name="indicateurs_anonymes.csv", mime="text/csv")
     st.caption(t["ind_note"])
-
